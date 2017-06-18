@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.laptop.musicapp.AlbumsActivity"
+
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="@string/album"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artist"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/podcast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Podcast"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/playlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Playlist"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/nowplaying"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="now playing"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

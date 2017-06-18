@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="artist">Welcome to Artists\nThis activity List your Music sorted By Artists...</string>
+    <string name="album">Welcome to Albums\nThis activity List your Music sorted By Albums...</string>
+    <string name="external1">Welcome To Online Transaction Screen...You can Pay Using debit Card Or PayPal</string>
+    <string name="external">Pay $10 for Online Music</string>
+    <string name="playlist">Welcome to Playlist\nThis activity List your Music sorted By playlist...</string>
+    <string name="podcast">Welcome to Podcast\nThis activity List your Music sorted By Podcast...</string>
+</resources>
